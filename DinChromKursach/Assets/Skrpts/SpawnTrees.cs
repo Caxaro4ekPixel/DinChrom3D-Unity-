@@ -13,27 +13,39 @@ public class SpawnTrees : MonoBehaviour
     {
         while (true)
         {
-            if (PlayerPrefs.GetInt("Location") == 1)
+            switch (PlayerPrefs.GetInt("Location"))
             {
-                if (Random.Range(0, 2) == 1)
-                {
-                    Instantiate(tree[Random.Range(0, 3)], new Vector3(21f, -4f, -1f), Quaternion.identity);
-                }
-                else
-                {
-                    Instantiate(tree[Random.Range(0, 3)], new Vector3(21f, -4f, 5f), Quaternion.identity);
-                }
-            }
-            if (PlayerPrefs.GetInt("Location") == 2)
-            {
-                if (Random.Range(0, 2) == 1)
-                {
-                    Instantiate(tree[4], new Vector3(21f, -4f, -1f), Quaternion.identity);
-                }
-                else
-                {
-                    Instantiate(tree[4], new Vector3(21f, -4f, 5f), Quaternion.identity);
-                }
+                case 1:
+                    if (Random.Range(0, 2) == 1)
+                    {
+                        Instantiate(tree[Random.Range(0, 3)], new Vector3(21f, -4f, -1f), Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(tree[Random.Range(0, 3)], new Vector3(21f, -4f, 5f), Quaternion.identity);
+                    }
+                    break;
+                case 2:
+                    if (Random.Range(0, 2) == 1)
+                    {
+                        Instantiate(tree[Random.Range(4, 9)], new Vector3(21f, -4f, -1f), Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(tree[Random.Range(4, 9)], new Vector3(21f, -4f, 5f), Quaternion.identity);
+                    }
+                    break;
+
+                default:
+                    if (Random.Range(0, 2) == 1)
+                    {
+                        Instantiate(tree[Random.Range(0, 3)], new Vector3(21f, -4f, -1f), Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(tree[Random.Range(0, 3)], new Vector3(21f, -4f, 5f), Quaternion.identity);
+                    }
+                    break;
             }
             yield return new WaitForSeconds(Random.Range(2,10));
         }

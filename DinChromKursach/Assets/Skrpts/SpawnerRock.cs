@@ -13,7 +13,18 @@ public class SpawnerRock : MonoBehaviour
     {
         while (true)
         {
-            Instantiate(Rock[Random.Range(0, 28)], new Vector3(21f, -4f, 2f), Quaternion.identity);
+            switch (PlayerPrefs.GetInt("Location"))
+            {
+                case 1:
+                    Instantiate(Rock[Random.Range(0, 28)], new Vector3(21f, -4f, 2f), Quaternion.identity);
+                    break;
+                case 2:
+                    Instantiate(Rock[Random.Range(28, 34)], new Vector3(21f, -4f, 2f), Quaternion.identity);
+                    break;
+                default:
+                    Instantiate(Rock[Random.Range(0, 28)], new Vector3(21f, -4f, 2f), Quaternion.identity);
+                    break;
+            }
             yield return new WaitForSeconds(Random.Range(10, 25));
         }
     }
