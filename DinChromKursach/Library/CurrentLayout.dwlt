@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 548}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 861
     height: 401
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -99,10 +99,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 675
-  m_MinSize: {x: 681, y: 498}
-  m_MaxSize: {x: 14004, y: 14048}
+  m_MinSize: {x: 679, y: 498}
+  m_MaxSize: {x: 14002, y: 14048}
   vertical: 0
-  controlID: 114
+  controlID: 33
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 296
     height: 675
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -623,20 +623,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/OBject/Jurassic Pack
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/OBject/Jurassic Pack
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\37525\Desktop\MyGames\MyGames\DinChromKursach
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: ca260000
-    m_LastClickedID: 9930
-    m_ExpandedIDs: 00000000ca2600002627000034270000622700009c2700009e270000542800007c280000822800008c280000802a0000bc2a0000d62b0000de2b0000722c0000f62c0000702e0000103000001430000030300000e6300000ac330000f2330000cc340000f43500002a360000363600004e3600009e360000e63600000237000072370000a23f0000a24b0000ae4b000000ca9a3b
+    scrollPos: {x: 0, y: 787}
+    m_SelectedIDs: be2d0000
+    m_LastClickedID: 11710
+    m_ExpandedIDs: 0000000006270000602700006427000076270000a6270000e4270000e6270000ac280000d6280000e0280000ea280000042b00004a2b00007e2c0000862c00002e2d0000be2d00004e2f0000223100002631000048310000163200003a320000003500004a350000fe350000343600006e370000aa370000b8370000d4370000283800007838000096380000143900006443000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -664,7 +664,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ca26000034270000622700009e2700007c2800008c280000802a0000bc2a0000d62b0000de2b0000f62c0000702e00001030000014300000ac330000f23300002a360000363600004e3600009e360000e63600000237000072370000a23f0000
+    m_ExpandedIDs: 0000000006270000602700006427000076270000a6270000e4270000e6270000ac280000d6280000e0280000ea280000042b00004a2b00007e2c0000862c00002e2d0000be2d00004e2f0000223100002631000048310000163200003a320000003500004a350000343600006e370000aa370000b8370000d43700002838000078380000963800001439000064430000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -783,9 +783,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 86290000
       m_LastClickedID: 0
-      m_ExpandedIDs: 7896fcfff09bfcffbc03feff66d8ffffccfbffff
+      m_ExpandedIDs: d6c6ffffdec6ffff4cc7ffff56c7ffff72c7ffff74c7ffff08d4ffffdefbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -840,9 +840,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.35478973, y: -10.080219, z: -0.7013836}
+    m_Target: {x: -2.204527, y: -5.0933723, z: 23.538765}
     speed: 2
-    m_Value: {x: 0.35478973, y: -10.080219, z: -0.7013836}
+    m_Value: {x: -2.204527, y: -5.0933723, z: 23.538765}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -870,13 +870,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.22945747, y: -0.48545498, z: 0.13373198, w: 0.83294564}
+    m_Target: {x: 0.18636225, y: -0.02063051, z: 0.0039142002, w: 0.9822567}
     speed: 2
-    m_Value: {x: 0.22945748, y: -0.485455, z: 0.13373199, w: 0.8329457}
+    m_Value: {x: 0.18636225, y: -0.02063051, z: 0.0039142002, w: 0.9822567}
   m_Size:
-    m_Target: 53.00613
+    m_Target: 36.574142
     speed: 2
-    m_Value: 53.00613
+    m_Value: 36.574142
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -916,7 +916,7 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
-  m_Stats: 1
+  m_Stats: 0
   m_SelectedSizes: 05000000000000000000000006000000000000000000000000000000000000000000000000000000
   m_TargetDisplay: 0
   m_ZoomArea:
@@ -936,7 +936,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
