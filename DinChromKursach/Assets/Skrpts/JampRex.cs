@@ -16,8 +16,7 @@ public class JampRex : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _anim = GetComponent<Animator>();
     }
-
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Space))
         {
